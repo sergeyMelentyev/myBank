@@ -13,6 +13,9 @@
 		8026CB351CBF7F52004D6CB5 /* myBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8026CB331CBF7F52004D6CB5 /* myBank.xcdatamodeld */; };
 		8026CB371CBF7F52004D6CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8026CB361CBF7F52004D6CB5 /* Assets.xcassets */; };
 		8026CB3A1CBF7F52004D6CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8026CB381CBF7F52004D6CB5 /* LaunchScreen.storyboard */; };
+		8026CB481CBF8E97004D6CB5 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8026CB471CBF8E97004D6CB5 /* CustomButton.m */; };
+		8026CB4B1CBF9041004D6CB5 /* CustomTableViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8026CB4A1CBF9041004D6CB5 /* CustomTableViewFrame.m */; };
+		8026CB4E1CBF964E004D6CB5 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8026CB4D1CBF964E004D6CB5 /* MainController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,12 @@
 		8026CB361CBF7F52004D6CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8026CB391CBF7F52004D6CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8026CB3B1CBF7F52004D6CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8026CB461CBF8E97004D6CB5 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		8026CB471CBF8E97004D6CB5 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		8026CB491CBF9041004D6CB5 /* CustomTableViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewFrame.h; sourceTree = "<group>"; };
+		8026CB4A1CBF9041004D6CB5 /* CustomTableViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewFrame.m; sourceTree = "<group>"; };
+		8026CB4C1CBF964E004D6CB5 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		8026CB4D1CBF964E004D6CB5 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,8 @@
 		8026CB261CBF7F52004D6CB5 /* myBank */ = {
 			isa = PBXGroup;
 			children = (
+				8026CB421CBF8E25004D6CB5 /* Controller */,
+				8026CB411CBF8E1E004D6CB5 /* View */,
 				8026CB2A1CBF7F52004D6CB5 /* AppDelegate.h */,
 				8026CB2B1CBF7F52004D6CB5 /* AppDelegate.m */,
 				8026CB301CBF7F52004D6CB5 /* Main.storyboard */,
@@ -75,6 +86,26 @@
 				8026CB281CBF7F52004D6CB5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8026CB411CBF8E1E004D6CB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8026CB461CBF8E97004D6CB5 /* CustomButton.h */,
+				8026CB471CBF8E97004D6CB5 /* CustomButton.m */,
+				8026CB491CBF9041004D6CB5 /* CustomTableViewFrame.h */,
+				8026CB4A1CBF9041004D6CB5 /* CustomTableViewFrame.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8026CB421CBF8E25004D6CB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8026CB4C1CBF964E004D6CB5 /* MainController.h */,
+				8026CB4D1CBF964E004D6CB5 /* MainController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8026CB4B1CBF9041004D6CB5 /* CustomTableViewFrame.m in Sources */,
 				8026CB351CBF7F52004D6CB5 /* myBank.xcdatamodeld in Sources */,
 				8026CB2C1CBF7F52004D6CB5 /* AppDelegate.m in Sources */,
 				8026CB291CBF7F52004D6CB5 /* main.m in Sources */,
+				8026CB4E1CBF964E004D6CB5 /* MainController.m in Sources */,
+				8026CB481CBF8E97004D6CB5 /* CustomButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
